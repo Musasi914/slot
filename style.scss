@@ -1,0 +1,51 @@
+$mainWidth:90vw;
+$rowCharacterNum:30;
+$maxFontSize:20px;
+$maxWidth: 1000px;
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 40px;
+    text-align: center;
+    font-weight: bold;
+    background: #8d8d8d;
+
+}
+img{
+    width: 100%;
+    object-fit: cover;
+    height: auto;
+}
+
+main{
+}
+
+.slotcontainer {
+    width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    display: flex;
+    gap: 10px;
+    background: #ccc;
+    .stop{
+        background: red;
+        padding: 1rem 2rem;
+        color: white;
+        border-radius: 20px;
+    }
+}
+.spin{
+    background: blue;
+    padding: 1rem 5rem;
+    color: white;
+    border-radius: 10px;
+}
+.inactive {
+    opacity: 0.5;
+}
+.unmatched {
+    opacity: 0.5;
+}
